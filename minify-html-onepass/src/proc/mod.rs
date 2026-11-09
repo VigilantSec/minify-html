@@ -78,7 +78,7 @@ impl<'d> IndexMut<ProcessorRange> for Processor<'d> {
 impl<'d> Processor<'d> {
   // Constructor.
   #[inline(always)]
-  pub fn new(code: &mut [u8]) -> Processor {
+  pub fn new(code: &mut [u8]) -> Processor<'_> {
     Processor {
       write_next: 0,
       read_next: 0,
