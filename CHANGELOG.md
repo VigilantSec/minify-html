@@ -2,6 +2,7 @@
 
 ## Pending
 
+- [Python] Add Python 3.15 support.
 - Disable treeshake annotations (e.g., `/*#__PURE__*/`) in minified JavaScript output as they are only useful for bundlers, not inline scripts.
 
 ## 0.18.1
